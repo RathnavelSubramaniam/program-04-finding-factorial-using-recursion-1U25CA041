@@ -3,9 +3,9 @@ def factorial(n):
         return 1
     else:
              return n*factorial(n-1)
-number=int(input("enter a number:"))
+number=int(input("Enter a number:"))
 if number<0:
-      print("/nerror:factorial is not defined fornegative number.")
+      print("/nError:factorial is not defined fornegative number.")
 else:
     result=factorial(number)
     print(f"\nThe factorial of {number} is {result}")
