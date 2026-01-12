@@ -5,7 +5,7 @@ def factorial(n):
              return n*factorial(n-1)
 number=int(input("Enter a number:"))
 if number<0:
-      print("/nError:factorial is not defined fornegative number.")
+      print("\nError:factorial is not defined fornegative numbers.")
 else:
     result=factorial(number)
-    print(f"\nThe factorial of {number} is {result}")
+    print(f"\nThe factorial of {number} is {result}")  
